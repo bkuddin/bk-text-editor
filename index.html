@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BK Text Editor</title>
+</head>
+<body>
+
+    <section class="w-8/12 mx-auto my-40">
+    <div class=" bg-orange-300 p-6">
+        <h1 class="text-center text-2xl font-bold py-5">My Text Editor</h1>
+
+        
+           <div class="border-2  bg-amber-200 border-slate-950 px-4">
+             <!-- Header -->
+             <div class="flex justify-between my-2">
+                <div id="wrapper" class="text-2xl font-semibold space-x-4">
+                    <button id="bold-button"><i class="fa-solid fa-bold"></i></button>
+                    <button id="italic-button" class="italic"><i class="fa-solid fa-italic"></i></button>
+                    <button id="underline-button" class="underline"><i class="fa-solid fa-underline"></i></button>
+                </div>
+                <div class="text-2xl font-semibold space-x-4">
+                    <button id="aling-left"><i class="fa-solid fa-align-left"></i></button>
+                    <button id="align-center"><i class="fa-solid fa-align-center"></i></button>
+                    <button id="align-right"><i class="fa-solid fa-align-right"></i></button>
+                    <button id="align-justify"><i class="fa-solid fa-align-justify"></i></button>
+                </div>
+                <!-- Font Size -->
+                <div class="text-2xl font-semibold space-x-4">
+                    <input class="w-16 " type="number" min="0" max="999" name="" id="font-size" placeholder="Font Size" value="16">
+                    
+                     <!-- Font Case -->
+                    <button id="font-case"><img class="w-8 " src="images/upper-and-lower-case-a-letter.svg" alt=""></button>
+                    <!-- Font Color -->
+
+                    
+                    
+                    <button><input type="color" name="" id="colorPicker" value="#000000"></button>
+                   
+                </div>
+    
+    
+            </div>
+            <hr class="w-full h-1 mx-auto my-2 bg-slate-950 md:my-5 ">
+            
+            <!-- Header End -->
+         
+            <textarea class="w-full h-60 border-2 border-amber-500 focus:ring-blue-500 focus:border-blue-500 p-4" placeholder="Write your thoughts here..." name="" id="textarea" cols="" rows="10" ></textarea>  
+           </div>  
+          
+       
+    </div>
+
+    
+
+   
+   </section>
+    
+</body>
+</html>
